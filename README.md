@@ -39,7 +39,7 @@ Use one or multiple ones to handle your Log Events. Adding a Appender is very si
 logger.RegisterLoggingAppender(new ConsoleLogger());
 ```
 
-or with the FileAppender:
+or with an FileAppender:
 
 ```C#
 FileLogger fileAppender = new FileLogger(@"C:\Log\AppLog.txt");
