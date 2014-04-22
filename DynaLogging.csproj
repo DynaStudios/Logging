@@ -40,7 +40,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractLogger.cs" />
+    <Compile Include="Appender\AbstractAppender.cs" />
     <Compile Include="Appender\ConsoleAppender.cs" />
+    <Compile Include="Appender\FileAppender.cs" />
     <Compile Include="ILoggingAppender.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="Loglevel.cs" />
